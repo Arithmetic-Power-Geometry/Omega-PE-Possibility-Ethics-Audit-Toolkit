@@ -1,0 +1,18 @@
+[
+  {
+    "presentation":"2014B",
+    "cohort":"Repeat attempt",
+    "n_students":272,
+    "admissible_option_classes_K":4,
+    "option_entropy":1.6094379124,
+    "delta_vs_2013B":-0.1823215568
+  },
+  {
+    "presentation":"2014J",
+    "cohort":"Disabled",
+    "n_students":190,
+    "admissible_option_classes_K":3,
+    "option_entropy":1.3862943611,
+    "delta_vs_2013B":-0.2231435513
+  }
+]
