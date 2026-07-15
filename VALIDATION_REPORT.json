@@ -1,0 +1,29 @@
+{
+  "software": "Omega-PE Possibility Ethics Audit Toolkit",
+  "module": "BBB",
+  "presentations": [
+    "2013B",
+    "2013J",
+    "2014B",
+    "2014J"
+  ],
+  "analytic_student_presentation_records": 7909,
+  "records_by_presentation": {
+    "2013B": 1767,
+    "2013J": 2237,
+    "2014B": 1613,
+    "2014J": 2292
+  },
+  "records_sum_check": 7909,
+  "records_match_analytic_file": true,
+  "cohorts": [
+    "Disabled",
+    "Low-IMD",
+    "Low prior education",
+    "Repeat attempt"
+  ],
+  "option_repair_cases": 2,
+  "best_presentation": "2014J",
+  "best_weighted_level": 7.772525332398796,
+  "note": "Presentation record counts are computed from the authoritative one-row-per-student-presentation analytic file. Cohort memberships overlap, but this does not alter the presentation record counts."
+}
