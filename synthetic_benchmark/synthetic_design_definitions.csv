@@ -1,0 +1,13 @@
+Design,Cohort,Admissible_Classes_K,Option_Entropy,Weight,Weighted_Level
+Baseline,Commuter students,2,1.099,0.7,0.769
+Baseline,Low-bandwidth,2,1.099,1.0,1.099
+Baseline,Working caregivers,3,1.386,0.8,1.109
+Baseline,Low-support applicants,1,0.693,1.2,0.832
+Exit/offline,Commuter students,3,1.386,0.7,0.97
+Exit/offline,Low-bandwidth,3,1.386,1.0,1.386
+Exit/offline,Working caregivers,3,1.386,0.8,1.109
+Exit/offline,Low-support applicants,3,1.386,1.2,1.664
+Assistant,Commuter students,3,1.386,0.7,0.97
+Assistant,Low-bandwidth,1,0.693,1.0,0.693
+Assistant,Working caregivers,3,1.386,0.8,1.109
+Assistant,Low-support applicants,1,0.693,1.2,0.832

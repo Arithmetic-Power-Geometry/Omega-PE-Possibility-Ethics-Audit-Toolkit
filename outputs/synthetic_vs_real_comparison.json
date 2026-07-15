@@ -1,0 +1,57 @@
+{
+  "existing_synthetic": [
+    {
+      "design": "Baseline",
+      "weighted_option_level": 3.808453
+    },
+    {
+      "design": "Exit/offline",
+      "weighted_option_level": 5.129289
+    },
+    {
+      "design": "Assistant",
+      "weighted_option_level": 3.604365
+    }
+  ],
+  "real_oulad_module": "BBB",
+  "analytic_student_presentation_records": 7909,
+  "real_presentations": [
+    {
+      "presentation": "2013B",
+      "student_presentation_records": 1767,
+      "vulnerability_weighted_level": 7.106050190131735,
+      "min_cohort_omega": 1.6094379124341003,
+      "mean_cohort_omega": 1.7005986908310775,
+      "J_vs_2013B": 0.0,
+      "rank": 3
+    },
+    {
+      "presentation": "2013J",
+      "student_presentation_records": 2237,
+      "vulnerability_weighted_level": 7.106050190131735,
+      "min_cohort_omega": 1.6094379124341003,
+      "mean_cohort_omega": 1.7005986908310775,
+      "J_vs_2013B": 0.0,
+      "rank": 3
+    },
+    {
+      "presentation": "2014B",
+      "student_presentation_records": 1613,
+      "vulnerability_weighted_level": 7.142514501490526,
+      "min_cohort_omega": 1.6094379124341003,
+      "mean_cohort_omega": 1.7005986908310775,
+      "J_vs_2013B": 0.0364643113587908,
+      "rank": 2
+    },
+    {
+      "presentation": "2014J",
+      "student_presentation_records": 2292,
+      "vulnerability_weighted_level": 7.772525332398796,
+      "min_cohort_omega": 1.3862943611198906,
+      "mean_cohort_omega": 1.8636799873410004,
+      "J_vs_2013B": 0.6664751422670614,
+      "rank": 1
+    }
+  ],
+  "interpretation": "Synthetic and OULAD values are not directly commensurable because the cohort definitions and option-class construction differ. The comparison is methodological: both use the same logarithmic index and vulnerability-weighted aggregation."
+}

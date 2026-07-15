@@ -1,0 +1,51 @@
+{
+  "benchmark_name": "Possibility Ethics Synthetic Benchmark",
+  "version": "1.0.1",
+  "paper": "Possibility Ethics: Measuring Moral Value as the Expansion of Safe Future Options in Sociotechnical Systems",
+  "software": "Omega-PE Possibility Ethics Audit Toolkit",
+  "synthetic": true,
+  "parameters": {
+    "tau": 0.6,
+    "gamma": 0.2,
+    "theta": 0.75,
+    "kappa": 1.0
+  },
+  "vulnerability_weights": {
+    "Commuter students": 0.7,
+    "Low-bandwidth": 1.0,
+    "Working caregivers": 0.8,
+    "Low-support applicants": 1.2
+  },
+  "designs": [
+    "Baseline",
+    "Exit/offline",
+    "Assistant"
+  ],
+  "cohorts": [
+    "Commuter students",
+    "Low-bandwidth",
+    "Working caregivers",
+    "Low-support applicants"
+  ],
+  "clustering": {
+    "type": "Deterministic outcome clustering",
+    "similarity_measure": "Declared outcome-signature similarity",
+    "threshold": 0.75
+  },
+  "viability_filter": {
+    "threshold": 0.6
+  },
+  "harm_filter": {
+    "threshold": 0.2
+  },
+  "option_entropy": {
+    "formula": "Omega = log(kappa + K) - log(kappa)",
+    "log_base": "natural"
+  },
+  "random_seed": null,
+  "deterministic_execution": true,
+  "reproducibility": {
+    "identical_results_expected": true,
+    "stochastic_components": false
+  }
+}
