@@ -144,8 +144,7 @@ If you use this software in academic work, please cite:
 
 1. The associated Possibility Ethics manuscript.
 2. The original OULAD dataset publication.
-3. The Zenodo DOI for this software release: 10.5281/zenodo.21373090
-
+3. The Zenodo DOI for this software release: https://doi.org/10.5281/zenodo.21373090
 ---
 
 # License
